@@ -1,0 +1,25 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# due to using tox and pytest
+.tox
+.cache
+
+# ignore databases
+*.db3
+
+# ignore feed backups
+*_feed.txt
+
+# ignore venvs
+venv/
+
+# ignore pycharm configs
+.idea/
